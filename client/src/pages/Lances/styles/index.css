@@ -1,0 +1,18 @@
+main {
+  margin: 0;
+  width: 100%;  
+  display: block;
+}
+
+.lances-nav {
+  margin-bottom: 2.5em;
+  width: 100%;
+}
+
+section {
+  display: flex;
+}
+
+.produtos-class {
+  margin: 2em;
+}

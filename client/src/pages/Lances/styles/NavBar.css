@@ -1,0 +1,21 @@
+nav, ul {
+  height: 4em;
+  background-color: rgb(153, 214, 234);
+  margin: auto;
+  width: 100%;
+  
+}
+
+ul {
+  margin: auto 0 auto 0;
+  list-style: none;
+}
+
+button {
+  display: inline-block;
+  border: 0;
+  color: #fff;
+  background-color: #1B1D36;
+  transition: filter 0.2s;
+  height: 4em;
+}

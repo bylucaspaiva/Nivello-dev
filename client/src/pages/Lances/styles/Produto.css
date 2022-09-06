@@ -1,0 +1,9 @@
+.test {
+  margin: 1em;
+  background-color: white;
+  width: 25%;
+}
+
+.products {
+  display: flex;
+}
