@@ -8,11 +8,11 @@ import './styles/index.css';
 function Home() {
   return(
     <div>
-        <NavBar className="navbar"/>
-      <main>
+      <NavBar className="navbar"/>
+      <div className="home-main">
         <Produtos className="produtos"/>
         <Login className="login"/>
-      </main> 
+      </div> 
     </div>
     
   );

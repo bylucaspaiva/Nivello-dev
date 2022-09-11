@@ -8,10 +8,10 @@ function NavBar() {
   return (
     <nav>
       <div className="nav">
-        <div className="logo-box">
-          <RiMoneyDollarBoxLine className="dolar-icon" color="#1B1D36" />
-          <h1>Leiloa</h1>
-        </div>
+          <div className="logo-box">
+            <RiMoneyDollarBoxLine className="dolar-icon" color="#1B1D36" />
+            <h1 className="h1-nav">Leiloa</h1>
+          </div>
       </div>
     </nav>
   );

@@ -43,8 +43,8 @@ export default function Login() {
     <section>
       <div>
         <div>
-          <h1>Cadastre-se para participar.</h1>
-          <p>Apenas maiores de 18 anos podem participar.</p>
+          <h1 className="words">Cadastre-se para participar.</h1>
+          <p className="words">  Apenas maiores de 18 anos podem participar.</p>
         </div>
         <header>
           <div className="input-group">

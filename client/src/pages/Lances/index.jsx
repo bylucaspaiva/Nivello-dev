@@ -22,7 +22,7 @@ function Lances() {
   }, []);
 
   return (
-    <main>
+    <main idName="lances-main">
       <NavBar className="lances-nav" />
       <div className="products">
         {newInput.map((input) => {
