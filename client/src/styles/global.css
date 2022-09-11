@@ -10,3 +10,34 @@ body {
   background-color: rgb(27, 29, 54);
 }
 
+input {
+  flex: 1;
+  padding: 10px 12px;
+  margin: 1em;
+  border-radius: 8px;
+  border: 0;
+}
+
+button {
+  border: 0;
+  color: #fff;
+  background-color: #1B1D36;
+  transition: filter 0.2s;
+  height: 4em;
+}
+
+.box-input {
+  margin: 0 0.5em 2.5em 0;
+  background: #fff;
+  padding: 2px 0 2px 0;
+  width: 350px;
+}
+
+.input-group {
+  background: #1B1D36;
+  font-size: 18px;
+}
+
+.logo-button {
+  size: 4em;
+}

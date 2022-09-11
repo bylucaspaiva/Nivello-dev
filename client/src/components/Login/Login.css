@@ -8,37 +8,4 @@ header {
   margin: auto;
 }
 
-.input-group {
-  background: #1B1D36;
-  font-size: 16px;
-}
-
-.box {
-  margin-bottom: 2.5em;
-  background: #fff;
-  padding: 2px 0 2px 0;
-  width: 350px;
-}
-
-
-input {
-  display: block;
-  flex: 1;
-  padding: 10px 12px;
-  margin: 1em;
-  border-radius: 8px;
-  border: 0;
-}
-
-button {
-  border: 0;
-  color: #fff;
-  background-color: #1B1D36;
-  transition: filter 0.2s;
-  height: 4em;
-}
-
-.logo-button {
-  size: 4em;
-}
 

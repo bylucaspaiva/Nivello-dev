@@ -42,7 +42,7 @@ export default function Products() {
         </div>
         <header>
           <div className="input-group">
-            <div className="box">
+            <div className="box-input">
               <input
                 type="text"
                 placeholder="Nome"
@@ -50,7 +50,7 @@ export default function Products() {
                 value={newName}
               />
             </div>
-            <div className="box">
+            <div className="box-input">
               <input
                 type="text"
                 placeholder="Valor"
@@ -58,7 +58,7 @@ export default function Products() {
                 value={newValue}
               />
             </div>
-            <div className="box">
+            <div className="box-input">
               <input
                 type="text"
                 placeholder="Photo (Link)"

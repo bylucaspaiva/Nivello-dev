@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Products from './pages/Products'
 import Historico from './pages/Historico'
 import Lances from './pages/Lances'
 

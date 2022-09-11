@@ -48,7 +48,7 @@ export default function Login() {
         </div>
         <header>
           <div className="input-group">
-            <div className="box">
+            <div className="box-input">
               <input
                 type="text"
                 placeholder="Nome"
@@ -56,7 +56,7 @@ export default function Login() {
                 value={newName}
               />
             </div>
-            <div className="box">
+            <div className="box-input">
               <input
                 type="texy"
                 placeholder="Idade"
