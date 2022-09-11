@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styles/global.css';
 import {
   BrowserRouter,
   Routes,
@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Produtos from './pages/Produtos'
+import Products from './pages/Products'
 import Historico from './pages/Historico'
 import Lances from './pages/Lances'
 

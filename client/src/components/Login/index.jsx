@@ -1,33 +1,39 @@
 import React from "react";
 import {useState} from 'react'
 import axios from "axios";
-
+import {useNavigate} from "react-router-dom"
 
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
-import './../styles/Produtos.css'
+import './Login.css'
 
-export default function Produtos() {
+
+
+export default function Login() {
+
+  let navigate = useNavigate();
 
   const [newName, setName] = useState('');
-  const [newValue, setValue] = useState('');
-  const [newPhoto, setPhoto] = useState('');
+  const [newAge, setAge] = useState('');
 
   function HandleSendInput() {
 
     if (!newName) return;
-    if (!newValue) return;
-    if (!newPhoto) return;
+    if (!newAge) return;
 
-    axios.post('/products/create', { 
+    if(newAge < 18) {
+      alert("Você precisa ter mais de 18 anos para continuar!");
+      return;
+    }
+
+    axios.post('/users/create', { 
       data: {
         nome: newName,
-        valor: newValue,
-        foto: newPhoto
+        idade: newAge
       }
     })
     .then((response) => {
       console.log(response);
-      alert("produto cadastrado com sucesso!")
+      navigate("/lances", { replace: true });
     }, (err) => {
       console.log(err);
     })
@@ -37,8 +43,8 @@ export default function Produtos() {
     <section>
       <div>
         <div>
-          <h1 className="words">Cadastre produtos no leilão online 😍.</h1>
-          <p className="words">Para entrar na vaga na Nivello 👍</p>
+          <h1 className="words">Cadastre-se para participar.</h1>
+          <p className="words">  Apenas maiores de 18 anos podem participar.</p>
         </div>
         <header>
           <div className="input-group">
@@ -52,18 +58,10 @@ export default function Produtos() {
             </div>
             <div className="box">
               <input
-                type="text"
-                placeholder="Valor"
-                onChange={(i) => setValue(i.target.value)}
-                value={newValue}
-              />
-            </div>
-            <div className="box">
-              <input
-                type="text"
-                placeholder="Photo (Link)"
-                onChange={(i) => setPhoto(i.target.value)}
-                value={newPhoto}
+                type="texy"
+                placeholder="Idade"
+                onChange={(i) => setAge(i.target.value)}
+                value={newAge}
               />
             </div>
           </div>

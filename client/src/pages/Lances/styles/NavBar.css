@@ -1,14 +1,32 @@
-nav, ul {
+nav {
   height: 4em;
   background-color: rgb(153, 214, 234);
   margin: auto;
-  width: 100%;
-  
+}
+
+.nav-lances {
+  margin-left: 10%;
+  display: flex;
+}
+
+.ul-box-lances {
+  margin-left: auto;
+  margin-right: 10%; 
 }
 
 ul {
   margin: auto 0 auto 0;
   list-style: none;
+  list-style: none;
+  display: flex;
+  height: 4em;
+}
+
+li {
+  padding: 0 0.5em 0 0.5em;
+  font-size: 2em;
+  text-decoration: none;
+  margin: auto 0 auto 0;
 }
 
 button {

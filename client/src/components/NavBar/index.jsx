@@ -2,12 +2,12 @@ import React from "react";
 
 
 import { RiMoneyDollarBoxLine } from 'react-icons/ri';
-import './../styles/NavBar.css'
+import './NavBar.css'
 
 function NavBar() {
   return (
     <nav>
-      <div className="nav">
+      <div className="nav-home">
           <div className="logo-box">
             <RiMoneyDollarBoxLine className="dolar-icon" color="#1B1D36" />
             <h1 className="h1-nav">Leiloa</h1>

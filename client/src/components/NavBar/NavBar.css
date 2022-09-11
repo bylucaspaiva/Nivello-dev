@@ -3,7 +3,7 @@ nav {
   background-color: rgb(153, 214, 234);
 }
 
-.nav {
+.nav-home {
   margin-left: 10%;
 }
 
@@ -20,18 +20,9 @@ nav {
   height: 4em;
 }
 
-ul {
-  margin: auto 0 auto 0;
-  list-style: none;
-  display: flex;
-}
 
-li {
-  padding: 0 0.5em 0 0.5em;
-  font-size: 2em;
-  text-decoration: none;
-  margin: auto 0 auto 0;
-}
+
+
 
 .dolar-icon {
   font-size: 4em;
